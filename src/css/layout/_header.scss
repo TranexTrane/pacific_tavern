@@ -28,7 +28,15 @@
         letter-spacing: 2px;
         margin-top: 60px;
     }
+    @media only screen and (max-width:1275px) {
+    display: inline;
+    left:50%;
+    transform: translate(-50%,0);
+    }
 }
+
+
+    
 .header-main::before{
     content: '';
     top: 0;
